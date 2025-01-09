@@ -1,0 +1,286 @@
+.Rjob {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Styling */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #ffff;
+  }
+  
+  .header-text {
+    width: 40%;
+    flex: 1;
+    /* margin-right: 20px; */
+    margin-top: 5%;
+    margin-left: 2%;
+    text-align: left;
+  }
+  
+  .header-text h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .header-text h1 span {
+    color: #0056D2; /* Highlight color */
+  }
+  
+  .header-text p {
+    font-size: 20px;
+    color: #555;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 15px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .find-jobs {
+    background-color: #004080;
+    color: white;
+  }
+  
+  .post-jobs {
+    background-color: #e0e0e0;
+    color: #333;
+  }
+  
+  .header-image {
+    flex: 1;
+    position: relative;
+  }
+  
+  .person-image {
+    max-width: 150%;
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: 5px 7px 3px  #868686;
+
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .logo-container img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* Achievements */
+  .achievements {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #e9f1fa;
+  }
+  
+  .achievement img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .achievement p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+ 
+  .highlight {
+    margin: 20px 0;
+    font-size: 18px;
+  }
+
+  .j-img-container {
+ 
+    margin: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+  }
+  
+  .j-wrapper {
+    overflow: hidden;
+    margin-top: -20%;
+    
+  }
+  
+  .j-wrapper img {
+    width: 200px;
+    height: 150px;
+    margin: 15px;
+    border-radius: 10px;
+    
+  }
+
+  /* find role job card */
+  .full-role{
+    
+    text-align: left;
+    margin: 0 5% 0 5%;
+  }
+  .h-find p{
+    color: gray;
+  }
+  .card-job{
+    width: 20%;
+    border: 1px solid black;
+    display: flex;
+  }
+  .card-job i{
+    margin-left: 15%;
+    
+  }
+  .card-job p{
+    margin-top: -2%;
+  }
+  .card-job img{
+    width: 90px;
+   
+  }
+
+
+
+  /* job categories */
+
+  .jobs-category-container {
+    text-align: center;
+    /* margin: 20px; */
+    background-color:#E5C9D7;
+    margin-bottom: 20px;
+  }
+  
+  .j-cat h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    color: #007bff; /* Customize the color */
+  }
+  
+  .categories {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .category {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    background-color: #fff;
+  }
+  
+  .category:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid gray;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .name {
+    font-size: 16px;
+  }
+  
+  .explore-all a {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .explore-all a:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+  .R {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+  }
+  
+ .R h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+ .R p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .role-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .role-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: left;
+  }
+  
+  .role-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .role-card p {
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .company-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+  }
+  
+  .company-logo {
+    width: 40px;
+    height: 50px;
+    border-radius: 5px;
+    object-fit: contain;
+  }

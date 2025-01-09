@@ -1,0 +1,332 @@
+.con{
+    display: flex;
+    /* margin-top: 60px; */
+}
+ .left{
+    float: left;
+    padding-left: 100px;
+    padding-top: 150px;
+    cursor: default;
+}
+
+.left h1{
+  margin-top: 20%;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#ffb9b9, #ff0202);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.left p{
+    font-size: 20px;
+}
+
+.growth-image {
+  width: 100%;
+  max-width: 340px; 
+  margin-left: 105%;
+  margin-top: -60%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+ 
+}
+
+
+
+
+.circle{
+    padding: 100px;
+    cursor: default;
+    
+}
+
+.intern{
+    border: none ;
+    background-color: #DDA0DD;
+    border-radius: 50px 0;
+    padding: 10px;
+    width: 1%;
+
+    
+}
+.intern:hover{
+    box-shadow: 10px 20px 20px purple;
+    transition: 1s;
+}
+#a{
+    text-align: center;
+    padding: 10px 150px;
+    margin-left: 70%;
+    
+}
+
+.job{
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px 0;
+    background-color: #C1E6BA;
+}
+.job:hover{
+    box-shadow: 10px 20px 20px green;
+    transition: 1s;
+}
+
+.image-container {
+    margin: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+  }
+  
+  .image-wrapper {
+    overflow: hidden;
+    
+  }
+  
+  .image-wrapper img {
+    width: 200px;
+    height: 150px;
+    margin: 15px;
+    border-radius: 10px;
+    
+  }
+  
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .carousel-wrapper {
+    display: flex; 
+    justify-content: center;
+    gap: 5px; 
+    
+  }
+  
+.carousel-wrapper img {
+    max-width: 45%; 
+    height: auto;
+  }
+  
+#next{
+    transition: 3s;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 100%;
+    border: none;
+    background-color: white;
+}
+
+.button-group {
+    width: 19%;
+    display: flex;
+    justify-content: left; /* Center the buttons horizontally */
+    gap: 10px; /* Space between the buttons */
+    margin: 20px 50px; /* Spacing above and below the group */
+    background-color: #e6e4e4;
+    padding: 5px;
+    border-radius: 25px;
+    margin-right: 1190px;
+
+  }
+  
+  /* .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #f5f5f5; 
+    color: #555;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  } */
+#quote{
+  font-size: 40px;
+  color: black;
+}
+.button:hover{
+  color: white;
+  background-color: #174ea6;
+}
+
+.slo{
+  background-color: #EBF4F1;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+ .rj{
+    background-color: #DDA0DD;
+    padding: 50px 0;
+ }
+.browse{
+    float: left;
+    padding-left: 190px;
+    padding-right: 50px;
+    cursor: default;
+    text-align: left;
+}
+.but{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #f5f5f5; /* Neutral button background */
+    color: purple; /* Button text color */
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.but:hover {
+    background-color: #e2ecf8;
+    color: purple;
+}
+
+.but:active{
+  color: white;
+  text-decoration: none;
+
+}
+#jo{
+    font-size: 40px;
+}
+#ro{
+    font-size: 20px;
+}
+
+.find {
+    display: flex;
+    gap: 20px;
+    margin: 20px 20px;
+  }
+  
+  .abc, .ab {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    width: 300px;
+  }
+
+.abc:hover{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
+    transition: 1s;
+}
+.ab:hover{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
+    transition: 1s;
+}
+  
+  .abc h3, .ab h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .abc h3::after, .ab h3::after {
+    content: '';
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+#web{
+    width: 100%;
+    background: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 12px;
+    padding: 12px 16px;
+    font-size: 16px;
+    text-align: left;
+    color: #333;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  #web:hover {
+    background: #f0f0f0;
+  }
+  
+#so {
+    font-size: 12px;
+    color: #777;
+  }
+  
+/* Card container styling */
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 50px 10px;
+  gap: 20px;
+}
+
+/* Individual card styling */
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 40%; /* Adjusts card width, ensures proper spacing */
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Placeholder for the card images */
+/* .card-image {
+  height: 100px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  width: 100px;
+} */
+
+/* Styling for card titles */
+.card-content h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+/* Styling for card descriptions */
+.card-content p {
+  font-size: 16px;
+  color: #555555;
+  line-height: 1.5;
+}
+
+
+.himg
+{
+ margin-left: -20%;
+ width: 200px;
+}

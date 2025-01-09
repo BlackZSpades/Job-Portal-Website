@@ -1,0 +1,106 @@
+/* Container for side-by-side layout */
+.intern-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Job listings on the left */
+  .intern-list {
+    flex: 1;
+    border-right: 1px solid #ddd;
+    /* padding-right: 20px; */
+  }
+  
+  /* Job details on the right */
+  .intern-details {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #c2c1c1;
+    border-radius: 8px;
+    margin-left: -20%;
+    box-shadow: 2px 4px 6px rgb(170, 164, 157);
+    transition: transform 0.3s, box-shadow 0.3s;
+   
+  }
+  
+  /* Individual job card styling */
+  .intern-body {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #fff;
+    cursor: pointer;
+    width: 60%;
+    margin-left: 2%;
+    box-shadow: 2px 4px 6px rgb(170, 164, 157);
+   
+  }
+  
+  /* Highlight the active job */
+  .intern-body.active {
+    border-color: #007bff;
+    background-color: #e6f2ff;
+  }
+  
+  /* Apply button styling */
+  .apply {
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20%;
+
+  }
+  
+  .apply:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .Aintern{
+    width: 20%;
+    text-align: center;
+    background: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+    color: rgb(75, 76, 126);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 30px;
+  margin-left: 40%;
+  font-weight: bold;
+  transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .Aintern:hover{
+    transform: scale(1.05);
+  }
+
+  .sejal1 h1{
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+  }
+
+  .sejal1 p{
+    font-size: larger;
+  }
+
+  .description1 p{
+    border: 1px solid black;
+  }
+  
+  .sejalclick1 {
+    margin-left: 40%;
+    width: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ddd;
+  }
+  .sejalclick1:hover{
+    color: white;
+    background-color: #9f9f9f;
+  }

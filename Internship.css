@@ -1,0 +1,291 @@
+.i-app {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Styling */
+  .i-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #ffff;
+  }
+  
+  .i-header-text {
+    width: 40%;
+    flex: 1;
+    /* margin-right: 20px; */
+    margin-top: 3%;
+    margin-left: 2%;
+    text-align: left;
+  }
+  
+  .i-header-text h1 {
+    font-size: 60px;
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  .i-header-text h1 span {
+    color: #0949a3; /* Highlight color */
+  }
+  
+  .i-header-text p {
+    font-size: 20px;
+    color: gray;
+  }
+  
+  .i-button-container {
+    margin-top: 20px;
+  }
+  
+  .i-button {
+    padding: 15px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .i-find-internship {
+    background-color: #004080;
+    color: white;
+  }
+  
+  .i-post-internship {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #004080;
+  }
+  
+  .i-header-image {
+    flex: 1;
+    position: relative;
+  }
+  
+  .i-person-image {
+    max-width: 150%;
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: 5px 7px 3px  #868686;
+
+  }
+  
+  .i-logo-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .i-logo-container img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* Achievements */
+  .i-achievements {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #e9f1fa;
+  }
+  
+  .i-achievement img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .i-achievement p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+ 
+  .i-highlight {
+    margin: 20px 0;
+    font-size: 18px;
+  }
+
+  .i-image-container {
+ 
+    margin: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+  }
+  
+  .i-image-wrapper {
+    overflow: hidden;
+    margin-top: -20%;
+    
+  }
+  
+  .i-image-wrapper img {
+    width: 200px;
+    height: 150px;
+    margin: 15px;
+    border-radius: 10px;
+    
+  }
+
+  /* find role job card */
+  .i-full-role{
+    
+    text-align: left;
+    margin: 0 5% 0 5%;
+  }
+  .i-h-find p{
+    color: gray;
+  }
+  .i-card-job{
+    width: 20%;
+    border: 1px solid black;
+    display: flex;
+  }
+  .i-card-job i{
+    margin-left: 15%;
+    
+  }
+  .i-card-job p{
+    margin-top: -2%;
+  }
+  .i-card-job img{
+    width: 90px;
+   
+  }
+
+/* job categories */
+
+  .i-jobs-category-container {
+    text-align: center;
+    /* margin: 20px; */
+    background-color:#E5C9D7;
+    margin-bottom: 20px;
+  }
+  
+  .i-j-cat h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .i-highlight {
+    color: #007bff; /* Customize the color */
+  }
+  
+  .i-categories {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .i-category {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    background-color: #fff;
+  }
+  
+  .i-category:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid gray;
+  }
+  
+  .i-icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .i-name {
+    font-size: 16px;
+  }
+  
+  .i-explore-all a {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .i-explore-all a:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+  
+
+.i-R {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    /* text-align: center; */
+    padding: 5% 0 5% 0;
+  }
+  
+  .i-R h1 {
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  
+  .i-R p {
+    text-align: left;
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  .i-role-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .i-role-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: left;
+  }
+  
+  .i-role-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .i-role-card p {
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .i-company-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+  }
+  
+  .i-company-logo {
+    width: 40px;
+    height: 50px;
+    border-radius: 5px;
+    object-fit: contain;
+  }

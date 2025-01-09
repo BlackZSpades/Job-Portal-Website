@@ -1,0 +1,87 @@
+.filter {
+  background: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+  color: rgb(75, 76, 126);
+    border: none;
+    padding: 10px 160px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 30px;
+  margin-left: 120%;
+  font-weight: bold;
+
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 47%;
+    width: 350px;
+    z-index: 10;
+  }
+  
+  .nav-linksssssss5 a {
+    display: block;
+    padding: 10px 0;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .nav-linksssssss5 a:hover {
+    text-decoration: underline;
+  }
+  
+  .search-bar {
+    margin-top: 10px;
+    display: flex;
+  }
+  
+  .search-bar input {
+    width: calc(100% - 20px);
+    padding: 3px;
+  }
+  
+  .search-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
+  }
+
+
+
+
+  .job-card{
+   
+    width: 30%;
+    height: 42vh;
+    margin-left: 1.5%;
+    padding-left: 20px;
+    display: inline-flex;
+    margin-bottom: 10px;
+    border: 2px solid #c2c1c1;
+    box-shadow: 2px 4px 6px rgb(170, 164, 157);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .job-card:hover{
+    transform: scale(1.05);
+  }
+
+  .apply-btn{
+    border: 2px solid whitesmoke;
+    padding: 10px 19px;
+    text-decoration: none;
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+    color: white;
+    border-radius: 5px;
+    margin-left: 45%;
+    margin-top: 20%;
+    font-weight: bold;
+    
+  }
+ 

@@ -1,0 +1,123 @@
+/* logo style */
+/* .logoContainer{
+    display: "flex";
+    align-items: "center";
+    gap: "10px",
+}
+ .logoImage{
+    width: "40px";
+    height: "40px";
+    border-radius: "50%";
+}
+ .logoText{
+    font-size: "30px";
+    font-weight: "bold";
+    color: "#fff";
+    text-decoration: "none";
+} */
+
+/* Footer Styling */
+.footer {
+    background: rgb(6,56,71);
+    background: linear-gradient(90deg, rgba(6,56,71,1) 1%, rgba(122,149,159,1) 100%, rgba(85,119,130,1) 100%, rgba(164,164,164,1) 100%, rgba(117,137,145,1) 100%);
+    
+    color: #fff;
+        padding: 40px 20px;
+        font-family: Arial, sans-serif;
+        /* position: fixed; */
+      }
+      
+      .footer-container {
+       
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* justify-content: left; */
+        text-align: left;
+        gap: 5px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+     .footer-section .inquiries{
+        font-weight: bold;
+      }
+      
+      .footer-section {
+        margin-left: 2%;
+        flex: 1;
+        min-width: 250px;
+        
+      }
+      /* .footer-section-1{
+        background-color: red;
+        padding-left: 10%;
+      } */
+      
+      .footer-section h4 {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+        color: #f39c12;
+      }
+      
+      
+      .footer-section ul {
+        font-size: 0.9rem;
+        line-height: 1.6;
+      }
+      
+      .footer-section ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .footer-section ul li {
+        margin-bottom: 10px;
+      }
+      
+      .footer-section ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      .footer-section ul li a:hover {
+        color: #f39c12;
+      }
+      
+      .social-icons {
+        display: flex;
+        gap: 20px;
+      }
+      
+      .social-icons a {
+        color: #fff;
+        font-size: 1.2rem;
+        text-decoration: none;
+      }
+      
+      .social-icons a:hover {
+        color: #f39c12;
+      }
+      
+      /* Footer Bottom Styling */
+      .footer-bottom {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 0.8rem;
+        color: #ccc;
+      }
+      
+      .footer-bottom p {
+        margin: 0;
+      }
+      
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .footer-container {
+          flex-direction: column;
+          text-align: center;
+        }
+      
+        .footer-section {
+          margin-bottom: 20px;
+        }
+      }

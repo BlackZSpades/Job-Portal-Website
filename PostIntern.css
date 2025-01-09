@@ -1,0 +1,75 @@
+.post-intern-page {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post-intern-container {
+    max-width: 600px;
+    margin-left: 30% ;
+    margin-top: 4%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-intern-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #5cb85c;
+    box-shadow: 0 0 5px rgba(92, 184, 92, 0.5);
+  }
+  
+  textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+ .poibtn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #6b030a, #feb47b);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .poibtn:hover {
+    background: linear-gradient(to right, #d96a4f, #feb47b);
+  }
+  
+  .poibtn:active {
+    background: linear-gradient(to right, #6b030a, #feb47b);
+  }
+  
